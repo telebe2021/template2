@@ -1,0 +1,32 @@
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.cont{
+max-width: 1400px;
+margin: 0 auto;
+padding: 0 32px;
+width: 100%;
+}
+ul{
+    list-style: none;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    font-family: sans-serif;
+}
+@import'nav';
+@import'sect1';
+@import'sect2';
+@import'sect3';
+@import'sect4';

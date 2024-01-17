@@ -1,0 +1,143 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+.cont {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 32px;
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  font-family: sans-serif;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+nav .nav1 {
+  width: 100%;
+  background-color: aqua;
+}
+nav .nav1 .paro {
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+}
+nav .nav1 .paro ul {
+  height: 40px;
+  gap: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .nav1 .paro .text {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 40px;
+}
+nav .nav1 .paro .text span {
+  height: 40px;
+}
+nav .nav2 {
+  background-color: rgb(42, 165, 52);
+  width: 100%;
+  min-height: 60px;
+}
+nav .nav2 .logo {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 40px;
+}
+nav .nav2 .logo ul {
+  gap: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+nav .nav2 .logo ul li {
+  color: #000;
+}
+nav .nav2 .logo ul li a:hover {
+  color: orangered;
+}
+
+.sect1 {
+  background-image: url("https://preview.colorlib.com/theme/selling/images/hero_2.jpg.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% -58.0938px;
+}
+.sect1 .div1 {
+  margin-left: 0;
+  display: flex;
+  padding: 0 40px;
+  justify-content: center;
+  align-items: start;
+  width: 50%;
+  gap: 30px;
+  height: 460px;
+  flex-direction: column;
+  color: #ffffff;
+}
+.sect1 .div1 h1 {
+  font-size: 75px;
+}
+.sect1 .div1 p {
+  font-size: 20px;
+}
+.sect1 .div1 .butt {
+  display: flex;
+  gap: 5px;
+  justify-content: space-between;
+}
+.sect1 .div1 .butt .button1 {
+  width: 120px;
+  height: 40px;
+  background-color: transparent;
+  color: #ffffff;
+}
+.sect1 .div1 .butt .button1:hover {
+  color: #000000;
+  background-color: #ffffff;
+}
+.sect1 .div1 .butt .button2 {
+  width: 220px;
+  height: 40px;
+  background-color: #ffffff;
+  color: #000;
+}
+.sect1 .div1 .butt .button2:hover {
+  color: #ffffff;
+  background-color: transparent;
+}/*# sourceMappingURL=index.css.map */
